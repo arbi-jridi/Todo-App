@@ -1,0 +1,37 @@
+.container {
+  margin-top: 20px;
+  left: 50px;
+  padding: 50px;
+  width: 90%;
+  box-sizing: border-box;
+  background-image: linear-gradient(pink, orange, white);
+  border-radius: 20px;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+h1 {
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+li {
+  justify-content: center;
+}
+
+.btn .btn-outline-danger {
+  position: absolute;
+  left: 100px;
+}
